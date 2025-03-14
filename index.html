@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VictorSoft - Desenvolvimento de Softwares</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0a0a0a;
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, #0066ff, #00cc66);
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 40px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .btn {
+            display: inline-block;
+            background-color: #00cc66;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 18px;
+        }
+        .contact-form {
+            background: #111;
+            padding: 20px;
+            border-radius: 5px;
+            width: 50%;
+            margin: 20px auto;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: none;
+        }
+        .contact-form button {
+            background-color: #00cc66;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .services {
+            padding: 40px;
+            background: #111;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+        .service-item {
+            margin: 10px 0;
+        }
+        footer {
+            background: #111;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>VictorSoft - Desenvolvimento de Softwares e Plataformas Web</header>
+    <div class="container">
+        <h1>Transformamos Ideias em Soluções Digitais</h1>
+        <p>Desenvolvimento de softwares personalizados e plataformas web com rapidez e suporte dedicado.</p>
+        <a href="#contato" class="btn">Entre em Contato</a>
+    </div>
+    
+    <div class="services">
+        <h2>Nossos Serviços</h2>
+        <p class="service-item">✔ Desenvolvimento de Softwares Personalizados</p>
+        <p class="service-item">✔ Criação de Plataformas Web</p>
+        <p class="service-item">✔ Suporte Técnico Especializado</p>
+        <p class="service-item">✔ Consultoria em Tecnologia</p>
+    </div>
+
+    <div id="contato" class="contact-form">
+        <h2>Entre em Contato</h2>
+        <form action="https://formsubmit.co/seuemail@gmail.com" method="POST">
+            <input type="text" name="name" placeholder="Seu Nome" required>
+            <input type="email" name="email" placeholder="Seu E-mail" required>
+            <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+    
+    <footer>
+        <p>Contato: <a href="mailto:contato@victorsoft.com" style="color:#00cc66;">victorrubim0@gmail.com</a> | <a href="https://wa.me/11955500078" style="color:#00cc66;">WhatsApp</a></p>
+    </footer>
+</body>
+</html>
